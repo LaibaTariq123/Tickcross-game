@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
+import Header from "./Components/Header";
 // import { Button } from "react-bootstrap";
 
 const winnerArray = [
@@ -31,6 +32,9 @@ function Tickcrossgame() {
 	};
 	return (
 		<>
+			<div>
+				<Header />
+			</div>
 			<div className="gamebody">
 				<h1>First Player is "X" Second Player is "O"</h1>
 				<div>
